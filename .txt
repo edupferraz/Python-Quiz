@@ -1,0 +1,66 @@
+Malphite = 0
+Jax = 0
+Kayle = 0
+KSante = 0
+KhaZix = 0
+Graves = 0
+LeeSin = 0
+Kayn = 0
+Hecarim = 0
+Ahri = 0
+Yasuo = 0
+Zed = 0
+Katarina = 0
+AurelionSol = 0
+Jhin = 0
+Jinx = 0
+Ezreal = 0
+Caitlyn = 0
+Kaisa = 0
+Milio = 0
+Thresh = 0
+Lulu = 0
+Nautilus = 0
+Yuumi = 0
+
+print("Qual lane você prefere?")
+
+print("a) Top b) Jungle c) Mid d) Adcarry e) Suporte")
+
+resposta = input("Digite a letra correspondente à sua resposta: ")
+
+perguntas_respotas = ["a"]
+if resposta == "a" or resposta == "A":
+    Malphite += 3
+    Jax += 3
+    Kayle += 3
+    KSante += 3
+elif resposta == "b" or resposta == "B":
+    KhaZix += 3
+    Graves += 3
+    LeeSin += 3
+    Kayn += 3
+    Hecarim += 3
+elif resposta == "c" or resposta == "C":
+    Ahri += 3
+    Yasuo += 3
+    Zed += 3
+    Katarina += 3
+    AurelionSol += 3
+elif resposta == "d" or resposta == "D":
+    Jhin += 3
+    Jinx += 3
+    Ezreal += 3
+    Caitlyn += 3
+    Kaisa += 3
+elif resposta == "e" or resposta == "E":
+    Milio += 3
+    Thresh += 3
+    Lulu += 3
+    Nautilus += 3
+    Yuumi += 3
+else:
+    print("Insira uma opção válida")
+
+print("Sua resposta foi " + resposta)
+
